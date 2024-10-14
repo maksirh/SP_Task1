@@ -4,13 +4,12 @@
 class Calculator
 {
     public:
-<<<<<<< HEAD
-        int Add (double, double);
-        int Sub (double, double);
-=======
-        int Add (int, int);
-        int Mul (double, double);
->>>>>>> e0ea21b (add a multiplication operation)
+
+        int Add(double a, double b);
+        int Sub(double a, double b);
+        int Mul(double, double);
+        int Del (double, double);
+        int raiseToPower(int, int);
 };
 
 #endif//CALCULATOR_H
